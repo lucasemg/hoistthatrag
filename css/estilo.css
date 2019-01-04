@@ -364,4 +364,35 @@ body	{
 
 /*========Welcome Page=========*/
 
+@media screen and (max-width: 767px) {
+
+	.welcome-capa img {
+
+	width: 200px;
+	border-radius: 50%;
+	border: 5px solid 	#222;
+
+}
+
+	.welcome-capa h1 {
+
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	font-size: 30px;
+	color: #222;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+	.welcome-capa h1 {
+
+	margin-bottom: 20px;
+
+}
+
+
+
+}
+
 
