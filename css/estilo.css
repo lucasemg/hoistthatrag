@@ -1,0 +1,361 @@
+/*
+*
+* @autor Lucas Mendes Gabriel
+* @version 0.1
+*/
+
+body	{
+
+}
+
+/*===WELCOME===*/
+
+
+.welcome-capa {
+
+	margin-top: 20px;
+	text-align: center;
+	animation-name: animacao-box;
+	animation-duration: 3s;
+
+}
+
+.welcome-capa img {
+
+	width: 400px;
+	border-radius: 50%;
+	border: 10px solid 	#222;
+
+
+}
+
+@keyframes animacao-box {
+
+	from {
+
+		opacity: 0.0;
+	}
+
+	to {
+
+		opacity: 1;
+	}
+}
+
+
+/*===BARRA DE NAVEÇÃO==*/
+
+.navbar {
+	border-bottom: none;
+	min-height: 80px;
+	padding-top: 15px;
+}
+
+
+/*===CABEÇALHOS===*/
+
+.cabecalho_index {
+
+	margin-top: 80px;
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/cabecalho_index.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+
+.cabecalho_biography {
+
+	margin-top: 80px;
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/cabecalho_biography.jpg");
+	background-position: 50% 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+.cabecalho_discography {
+
+	margin-top: 80px;
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/cabecalho_discography.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 35%;
+	position: relative;
+
+}
+
+.cabecalho_contact {
+
+	margin-top: 80px;
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/cabecalho_contact.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 35%;
+	position: relative;
+
+}
+
+/*RODAPÉ*/
+
+.rodape {
+	
+	background: #222;
+	margin-top: 50px;
+
+}
+
+/*HOME PAGE*/
+
+.conteudo-home {
+
+	margin-top: 20px;
+}
+
+.conteudo-texto img {
+
+	width: 600px;
+}
+
+
+/*BIOGRAPHY*/
+
+.quotes {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+	padding: 45px 0px;
+
+}
+
+.ultima-foto .img-responsive {
+
+	display: block;
+	margin: 0 auto;
+}
+
+.texto-bio {
+	display: flex;
+	align-items: center;
+}
+
+
+/*DISCOGRAPHY*/
+
+
+
+.disco-row {
+
+	background-color: #dedede;
+	padding: 10px 10px
+}
+
+.disco-row2 {
+
+
+	padding: 10px 10px;
+
+}
+
+.album-info {
+
+	text-align: right;
+	padding: 5% 10px;
+}
+
+.album-info2 {
+
+	text-align: left;
+	padding: 5% 10px;
+
+}
+
+
+
+/*===========TIPOGRAFIA==========*/
+
+.welcome-capa h1 {
+
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	font-size: 50px;
+	color: #222;
+
+}
+
+.welcome-capa a {
+
+	text-decoration: none;
+}
+
+.welcome-capa h3 {
+
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	font-size: 30px;
+	color: #222;
+}
+
+
+
+.navbar-inverse .navbar-brand {
+
+	
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	font-size: 40px;
+
+	}
+
+
+.navbar-inverse .navbar-brand {
+    color: #fa8666;
+    transition: color 0.3s;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 23px;
+	font-weight: 700;
+	color: #fa8666;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+
+	font-weight: 700;
+	color: white;
+
+}
+
+
+.cabecalho_index>h1, .cabecalho_biography>h1, .cabecalho_discography>h1, .cabecalho_contact>h1 {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 50px;
+	font-style: italic;
+	position: absolute;
+	bottom: 5px;
+	right: 15px;
+	color: #fff;
+	text-align: right;
+	background: rgba(0,0,0, 0.4);
+	background-size: cover;
+}
+
+.conteudo-texto>h1 {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+}
+
+.conteudo-texto>h3 {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 30px;
+}
+
+.conteudo-texto p {
+
+	font-family: 'Slabo 27px', serif;
+	font-size: 23px;
+	padding: 4px;
+}
+
+
+#logo-rodape {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 40px;
+	text-align: left;
+	color: #fa8666;
+    transition: color 0.3s;
+    text-decoration: none;
+
+}
+
+#logo-rodape:hover {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 40px;
+	text-align: left;
+	color: #fff;
+    transition: color 0.3s;
+    text-decoration: none;
+
+}
+
+#copyright {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 15px;
+	color: white;
+	text-align: right;
+	padding-top: 20px;
+	font-family: 'Questrial', sans-serif;
+}
+
+.album-info h2 {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+	color: #fa8666;
+	font-style: italic;
+}
+
+.album-info h4  {
+
+ 	font-family: 'Staatliches', cursive;
+	font-size: 2em;
+}
+
+.album-info2 h2 {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+	color: #fa8666;
+	font-style: italic;
+}
+
+.album-info2 h4  {
+
+ 	font-family: 'Staatliches', cursive;
+	font-size: 2em;
+}
+
+.email h1 {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+
+}
+
+.email {
+
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size: 30px;
+
+}
+
+
+
+
