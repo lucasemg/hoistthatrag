@@ -413,9 +413,15 @@ html, body{
 	font-size: 30px;
 }
 
-.cabecalho_contact>h1, .cabecalho_discography>h1 {
+.cabecalho_discography>h1 {
 
 	font-size: 28px;
+
+}
+
+.cabecalho_contact>h1, {
+
+	font-size: 26px;
 
 }
 
