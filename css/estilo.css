@@ -406,8 +406,13 @@ html, body{
 }
 
 
+.cabecalho_index>h1 {
 
-.cabecalho_index>h1, .cabecalho_biography>h1 {
+	font-size: 28px;
+
+}
+
+.cabecalho_biography>h1 {
 
 	
 	font-size: 30px;
