@@ -341,6 +341,25 @@ body	{
 	font-size: 2em;
 }
 
+
+
+.email h1 {
+
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+
+}
+
+.email {
+
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size: 30px;
+
+}
+
+
+
 /*=========MEDIA QUERIES==============*/
 
 /*========Welcome Page=========*/
@@ -361,28 +380,10 @@ body	{
 	text-align: center;
 	font-size: 30px;
 	color: #222;
+	margin-top: 40px;
 
 }
 
 
 
 }
-
-.email h1 {
-
-	font-family: 'Staatliches', cursive;
-	font-size: 60px;
-
-}
-
-.email {
-
-	text-align: center;
-	font-family: 'Slabo 27px', serif;
-	font-size: 30px;
-
-}
-
-
-
-
