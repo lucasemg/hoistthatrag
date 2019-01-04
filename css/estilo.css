@@ -391,7 +391,31 @@ body	{
 
 }
 
+}
 
+/*========CABEÇALHOS=========*/
+
+@media screen and (max-width: 767px) {
+
+.cabecalho_index, .cabecalho_biography, .cabecalho_discography, .cabecalho_contact  {
+
+	height: 150px;
+
+}
+
+
+
+.cabecalho_index>h1, .cabecalho_biography>h1 {
+
+	
+	font-size: 30px;
+}
+
+.cabecalho_contact>h1, .cabecalho_discography>h1 {
+
+	font-size: 28px;
+
+}
 
 }
 
