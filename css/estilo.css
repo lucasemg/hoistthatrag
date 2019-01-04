@@ -4,8 +4,10 @@
 * @version 0.1
 */
 
-body	{
+html, body{
 
+	height: 100%;
+	overflow: auto;
 }
 
 /*===WELCOME===*/
