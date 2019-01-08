@@ -430,20 +430,20 @@ html, body{
 
 }
 	
-	/*=========DISCOGRAPHY==========*/
+/*=========DISCOGRAPHY==========*/
 
 .disco-row {
 
 	background-color: #dedede;
 	height: 180px;
-	overflow:hidden
+	overflow: hidden;
+
 
 }
 
 .disco-row img {
 
 	width: 150px;
-	position: center;
 	display: inline;
 	float: left;
 }
@@ -453,22 +453,25 @@ html, body{
 	position: right;
 	width: 160px;
 	float: right;
-	padding: 0px 5px;
-	border: 1px solid red;
+	padding: 5px 5px;
 }
 
 .album-info h2 {
 
-	font-size: 27px;
+	font-size: 23px;
 }
 
 .album-info h4 {
+
+	font-size: 15px;
+}
+
+#swordfish {
 
 	font-size: 18px;
 }
 
 .disco-row2 {
-
 
 	height: 180px;
 	overflow:hidden
@@ -486,20 +489,21 @@ html, body{
 .album-info2  {
 	
 	position: left;
-	width: 250px;
-	float: right;
+	width: 160px;
+	float: right;	
 	padding: 0px 5px;
 }
 
 .album-info2 h2 {
 
-	font-size: 30px;
+	font-size: 23px;
 }
 
 .album-info2 h4 {
 
-	font-size: 20px;
+	font-size: 14px;
 }
+
 
 }
 
