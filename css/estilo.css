@@ -451,19 +451,20 @@ html, body{
 .album-info  {
 	
 	position: right;
-	width: 250px;
+	width: 200px;
 	float: right;
 	padding: 0px 5px;
+	border: 1px solid red;
 }
 
 .album-info h2 {
 
-	font-size: 30px;
+	font-size: 27px;
 }
 
 .album-info h4 {
 
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .disco-row2 {
