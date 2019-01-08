@@ -503,6 +503,24 @@ html, body{
 
 	font-size: 14px;
 }
+	
+/*=========RODAPÉ==========*/
+
+#logo-rodape {
+
+font-size: 30px;
+display: inline;
+float:left;
+
+}
+
+#copyright {
+padding: 4% 8px;
+height: 45px;
+display: inline;
+float:right;
+font-size: 10px;
+}
 
 
 }
