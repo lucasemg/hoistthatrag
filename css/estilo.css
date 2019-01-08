@@ -430,6 +430,18 @@ html, body{
 
 }
 	
+/*=========HOME==========*/
+
+.conteudo-texto img {
+
+	margin-top: 15px;
+}
+
+.conteudo-texto p {
+
+	margin-top: 20px;
+}
+	
 /*=========DISCOGRAPHY==========*/
 
 .disco-row {
