@@ -429,6 +429,77 @@ html, body{
 	font-size: 22px;
 
 }
+	
+	/*=========DISCOGRAPHY==========*/
+
+.disco-row {
+
+	background-color: #dedede;
+	padding: 10px 10px;
+	height: 180px;
+	overflow:hidden
+
+}
+
+.disco-row img {
+
+	width: 150px;
+	position: center;
+	display: inline;
+	float: left;
+}
+
+.album-info  {
+	
+	position: right;
+	width: 250px;
+	float: right;
+	padding: 0px 5px;
+}
+
+.album-info h2 {
+
+	font-size: 30px;
+}
+
+.album-info h4 {
+
+	font-size: 20px;
+}
+
+.disco-row2 {
+
+	padding: 10px 10px;
+	height: 180px;
+	overflow:hidden
+
+}
+
+.disco-row2 img {
+
+	width: 150px;
+	position: center;
+	display: inline;
+	float: right;
+}
+
+.album-info2  {
+	
+	position: left;
+	width: 250px;
+	float: right;
+	padding: 0px 5px;
+}
+
+.album-info2 h2 {
+
+	font-size: 30px;
+}
+
+.album-info2 h4 {
+
+	font-size: 20px;
+}
 
 }
 
