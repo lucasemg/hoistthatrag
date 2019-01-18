@@ -8,6 +8,7 @@
     <title>Hoist That Rag</title>
     <link rel="icon" href="img/favicon-32X32.png">
 
+    
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -21,13 +22,29 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!--JQUERY-->
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      
+      function fade_in_welcome(){
+
+        $('#fade_in').fadeIn(2500);
+
+      }
+
+    </script>
+
+
+
   </head>
-  <body>
+  <body onload="fade_in_welcome()">
 
 
     <div class="container">
-      <div class="row welcome">
-        <div class="col-md-12 welcome-capa">
+      <div class="row welcome" >
+        <div class="col-md-12 welcome-capa" id="fade_in" style="display:none">
         <a href="home.html">
           <h1>Welcome to <br>Hoist That Rag</h1>
           <img src="img/welcome.jpg" class="img-relative box-center">
