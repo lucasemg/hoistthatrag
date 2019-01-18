@@ -17,9 +17,6 @@ html, body{
 
 	margin-top: 20px;
 	text-align: center;
-	animation-name: animacao-box;
-	animation-duration: 3s;
-
 }
 
 .welcome-capa img {
@@ -30,20 +27,6 @@ html, body{
 
 
 }
-
-@keyframes animacao-box {
-
-	from {
-
-		opacity: 0.0;
-	}
-
-	to {
-
-		opacity: 1;
-	}
-}
-
 
 /*===BARRA DE NAVEÇÃO==*/
 
